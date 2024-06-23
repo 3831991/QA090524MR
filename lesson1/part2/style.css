@@ -1,3 +1,8 @@
 body {
     direction: rtl;
+    background-color: #8fa5bc;
+}
+
+h1 {
+    text-align: center;
 }
