@@ -1,8 +1,26 @@
 body {
+    /* כיוון האתר מימין לשמאל */
     direction: rtl;
+    /* רקע לאתר */
     background-color: #8fa5bc;
 }
 
 h1 {
+    /* יישור הכותרת לאמצע */
     text-align: center;
+}
+
+div {
+    /* רקע */
+    background-color: #ffffffcf;
+    /* רוחב מקסימלי */
+    max-width: 900px;
+    /* ריווח אוטומטי (לצורך מרכוז האלמנט) */
+    margin: auto;
+    /* גובה התחלתי */
+    min-height: 500px;
+    /* ריווח פנימי */
+    padding: 12px;
+    /* עיגול קצוות */
+    border-radius: 6px;
 }
