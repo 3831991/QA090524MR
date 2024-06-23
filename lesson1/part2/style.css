@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100..900&display=swap');
+
 body {
     /* כיוון האתר מימין לשמאל */
     direction: rtl;
     /* רקע לאתר */
     background-color: #8fa5bc;
+    /* גופן */
+    font-family: "Noto Sans Hebrew", sans-serif;
 }
 
 h1 {
@@ -10,6 +14,7 @@ h1 {
     text-align: center;
 }
 
+/* עיצוב הבלוק שממסגר את האתר */
 div {
     /* רקע */
     background-color: #ffffffcf;
@@ -23,4 +28,29 @@ div {
     padding: 12px;
     /* עיגול קצוות */
     border-radius: 6px;
+}
+
+/* עיצוב התפריט */
+nav {
+    /* רקע */
+    background-color: #4f6883;
+}
+
+/* עיצוב הקישורים שבתוך התפריט */
+nav a {
+    /* צבע טקסט */
+    color: white;
+    /* מצב תצוגה */
+    display: inline-block;
+    /* ריווח פנימי */
+    padding: 10px;
+    /* הסרת הקו התחתון */
+    text-decoration: none;
+    /* גודל גופן */
+    font-size: 20px;
+}
+
+/* שינוי עיצוב בריחוף עכבר */
+nav a:hover {
+    background-color: #8fa5bc;
 }
