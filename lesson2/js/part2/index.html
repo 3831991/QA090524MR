@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Hello JavaScript</title>
-        <script src="script.js"></script>
-    </head>
-    <body>
-        <h1>Hello JavaScript</h1>
 
-        <div class="frame">
-            
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello JavaScript</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Hello JavaScript</h1>
+
+    <div class="frame">
+        <div class="task">
+            <h2>יש לשאול שאלה ואם התשובה נכונה, לכתוב "נכון". אם התשובה לא נכונה, לכתוב "לא נכון".</h2>
+            <p>כמה זה 10 כפול 10?</p>
+            <input type="text" id="answer1">
+            <button onclick="task1()">בדוק</button>
         </div>
-    </body>
+
+        <div class="task">
+            <h2>
+                יש לקלוט מספר:
+                <ul>
+                    <li>אם המספר גדול מ-50 - לכתוב "המספר גדול מ-50"</li>
+                    <li>אם המספר קטן מ-30 - לכתוב "המספר קטן מ-30"</li>
+                    <li>אחרת - לכתוב "כישלון"</li>
+                </ul>
+            </h2>
+
+            <input type="text" id="answer2">
+            <button onclick="task2()">בדוק</button>
+        </div>
+    </div>
+</body>
+
 </html>
