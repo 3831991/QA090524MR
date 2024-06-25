@@ -10,3 +10,7 @@ function greet2() {
         document.getElementById('msg').style.display = 'none';
     }, 2000);
 }
+
+function welcome() {
+    console.log("ברוכים הבאים!");
+}
