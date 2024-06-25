@@ -14,3 +14,8 @@ function greet2() {
 function welcome() {
     console.log("ברוכים הבאים!");
 }
+
+function greetName() {
+    let un = document.getElementById('userName').value;
+    alert("ברוך הבא " + un);
+}
