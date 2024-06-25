@@ -34,5 +34,13 @@ function nulti() {
 }
 
 function sum() {
-    
+    let n1 = +document.getElementById('num4').value;
+    let n2 = +document.getElementById('num5').value;
+
+    alert(n1 + n2);
+    // אופציות נוספות (אם לא היינו ממירים למעלה למספר)
+    // alert(Number(n1) + Number(n2));
+    // alert(parseInt(n1) + parseInt(n2));
+    // alert(+n1 + +n2);
+    // alert(n1 * 1 + n2 * 1);
 }
