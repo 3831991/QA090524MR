@@ -2,20 +2,45 @@
 
 body {
     direction: rtl;
-    background-color: blue;
+    background-color: #5b2867;
     font-family: "Noto Sans Hebrew", sans-serif;
+    background: url(https://d3o5sihylz93ps.cloudfront.net/wp-content/uploads/2019/08/13182108/%D7%A1%D7%99%D7%99%D7%9E%D7%9F-185.jpg) no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
 }
 
 h1 {
     text-align: center;
+    background-color: #6f2701;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 50px;
     color: white;
 }
 
 .frame {
-    background-color: #ffffffeb;
-    max-width: 900px;
+    background-color: #6a1f00d9;
+    max-width: 250px;
     margin: auto;
-    min-height: 500px;
-    padding: 12px;
+    padding: 18px;
     border-radius: 6px;
+    color: white;
+    text-align: right;
+}
+
+.field {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    padding: 6px 8px;
+    border: 0;
+    border-bottom: 2px solid #6d6d6d;
+    margin-top: 3px;
+    width: 100%;
+    box-sizing: border-box;
 }
