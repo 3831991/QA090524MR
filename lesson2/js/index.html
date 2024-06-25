@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <title>Hello JavaScript</title>
+        <script src="script.js"></script>
     </head>
     <body>
         <h1>Hello JavaScript</h1>
@@ -11,8 +12,14 @@
         <div class="frame">
             <div class="task">
                 <h2>יש ליצור לחצן המציג הודעת ברוכים הבאים</h2>
-
+                <button onclick="greet()">לחצו כאן</button>
+                <button onclick="greet2()">עם אנימציה</button>
             </div>
+        </div>
+
+        <!-- בשביל הפונקציה עם האנימציה -->
+        <div id="msg">
+            <p>ברוכים הבאים</p>
         </div>
     </body>
 </html>
