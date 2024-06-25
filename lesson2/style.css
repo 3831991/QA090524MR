@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100..900&display=swap');
+
+body {
+    direction: rtl;
+    background-color: blue;
+    font-family: "Noto Sans Hebrew", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.frame {
+    background-color: #ffffffeb;
+    max-width: 900px;
+    margin: auto;
+    min-height: 500px;
+    padding: 12px;
+    border-radius: 6px;
+}
