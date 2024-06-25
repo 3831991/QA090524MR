@@ -8,3 +8,14 @@ function task1() {
     }
 }
 
+function task2() {
+    let n = +document.getElementById('num').value;
+
+    if (n > 50) {
+        alert("המספר גדול מ-50");
+    } else if (n < 30) {
+        alert("המספר קטן מ-30");
+    } else {
+        alert("כישלון");
+    }
+}
