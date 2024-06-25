@@ -36,11 +36,34 @@ label {
     display: block;
 }
 
-input {
+input, select {
     padding: 6px 8px;
     border: 0;
     border-bottom: 2px solid #6d6d6d;
     margin-top: 3px;
     width: 100%;
     box-sizing: border-box;
+}
+
+input[type=checkbox], input[type=radio] {
+    width: initial;
+}
+
+button {
+    font-size: 17px;
+    border: 0;
+    border-radius: 67px;
+    width: 100px;
+    height: 44px;
+    display: block;
+    margin: auto;
+    background-color: #5b5b5b;
+    color: white;
+    box-shadow: 1px 1px 0px 1px #a5a5a5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    scale: 1.3;
 }
