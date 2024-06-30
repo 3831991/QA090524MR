@@ -48,3 +48,17 @@ function salarycalcultor() {
 
     document.getElementById("output3").innerHTML = `השכר של ${user} הוא: ${Math.round(salary)}`;
 }
+
+function check() {
+    const age = +document.getElementById("age").value;
+    const height = +document.getElementById("height").value;
+
+    // משתנה עזר
+    const ageCond = (age >= 14 && age <= 18) || (age >= 21 && age <= 26);
+
+    if (ageCond && height >= 182) {
+        document.getElementById("output4").innerHTML = "התקבלת בהצלחה";
+    } else {
+        document.getElementById("output4").innerHTML = "לצערינו, לא התקבלת.";
+    }
+}
