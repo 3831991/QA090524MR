@@ -19,3 +19,10 @@ function task2() {
     }
 }
 
+function task3() {
+    let url = document.getElementById("imgUrl").value;
+    let alt = document.getElementById("imgAlt").value;
+
+    document.getElementById("img").src = url;
+    document.getElementById("img").alt = alt;
+}
