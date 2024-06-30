@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100..900&display=swap');
+
+body {
+    direction: rtl;
+    background-color: #009688;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    background-color: #005050;
+    padding: 24px;
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: #ffffffe5;
+    max-width: 800px;
+    min-height: 500px;
+    padding: 12px;
+    margin: auto;
+}
+
+button {
+    background-color: #005050;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+button:hover {
+    background-color: #006565;
+}
+
+input, select {
+    border: 1px solid;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.task {
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 12px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 12px 0;
+    margin: 0px;
+}
