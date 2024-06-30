@@ -18,3 +18,4 @@ function task2() {
         document.getElementById("output1").innerHTML = "טעות";
     }
 }
+
