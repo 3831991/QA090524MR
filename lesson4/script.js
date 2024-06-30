@@ -10,5 +10,11 @@ function task1() {
 }
 
 function task2() {
-    
+    let city = document.getElementById("city").value;
+
+    if (city == "קרית ארבע") {
+        document.getElementById("output1").innerHTML = "נכון";
+    } else {
+        document.getElementById("output1").innerHTML = "טעות";
+    }
 }
