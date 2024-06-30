@@ -26,3 +26,10 @@ function task3() {
     document.getElementById("img").src = url;
     document.getElementById("img").alt = alt;
 }
+
+function sum() {
+    let n1 = +document.getElementById("num1").value;
+    let n2 = +document.getElementById("num2").value;
+
+    document.getElementById("output2").innerHTML = n1 + " + " + n2 + " = " + (n1 + n2);
+}
