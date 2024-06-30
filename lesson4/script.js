@@ -32,4 +32,6 @@ function sum() {
     let n2 = +document.getElementById("num2").value;
 
     document.getElementById("output2").innerHTML = n1 + " + " + n2 + " = " + (n1 + n2);
+    // אופציה נוספת
+    // document.getElementById("output2").innerHTML = `${n1} + ${n2} = ${n1 + n2}`;
 }
