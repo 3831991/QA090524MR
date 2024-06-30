@@ -35,3 +35,16 @@ function sum() {
     // אופציה נוספת
     // document.getElementById("output2").innerHTML = `${n1} + ${n2} = ${n1 + n2}`;
 }
+
+function salarycalcultor() {
+    let user = document.getElementById("user").value;
+    let salary = document.getElementById("salary").value;
+
+    if (salary * 1.1 > 6000) {
+        salary *= 1.05;
+    } else {
+        salary *= 1.1;
+    }
+
+    document.getElementById("output3").innerHTML = `השכר של ${user} הוא: ${Math.round(salary)}`;
+}
