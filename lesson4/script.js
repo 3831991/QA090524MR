@@ -8,3 +8,7 @@ function task1() {
     // מגדיל גם את הגופן
     // document.getElementById("btn").style.fontSize = (counter + 15) + "px";
 }
+
+function task2() {
+    
+}
